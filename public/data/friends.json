@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "friends",
+      "attributes": {
+        "image": "images/avatars/jenn-schiffer.jpg",
+        "name": "Jenn Schiffer",
+        "url": "http://jennmoney.biz"
+      }
+    },
+
+    {
+      "id": 2,
+      "type": "friends",
+      "attributes": {
+        "image": "images/avatars/mike-taylor.png",
+        "name": "Mike Taylor",
+        "url": "https://miketaylr.com/posts/"
+      }
+    },
+
+    {
+      "id": 3,
+      "type": "friends",
+      "attributes": {
+        "image": "images/avatars/chris-bannon.jpg",
+        "name": "Chris Bannon",
+        "url": "http://banzor.us/"
+      }
+    }
+  ]
+}

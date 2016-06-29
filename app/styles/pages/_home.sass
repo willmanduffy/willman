@@ -26,8 +26,12 @@
 
   .extended-network
     border: 1px solid $black
+    margin-top: 1em
     padding: 2em 0.5em
     text-align: center
+
+    +breakpoint($breakpoint-medium-up)
+      margin-top: 0
 
   .last-login
     display: block
@@ -45,6 +49,19 @@
 
   .name
     margin-bottom: 0.5em
+
+  .top-friends
+    font-size: 0.9em
+    text-align: center
+
+    a
+      color: $governor-bay
+
+    img
+      bottom: 0
+      display: block
+      position: relative
+      width: 100%
 
   h3
     font-size: 1.6em
