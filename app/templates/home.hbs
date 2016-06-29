@@ -64,11 +64,15 @@
       If I'm not doing any of the above you can probably find me tweeting,
       reading about history, watching TV, or finding new tunes. It's my
       dream that someday we'll all find it within ourselves to treat each
-      other just a little bit nicer.
+      other just a little bit better.
     </p>
 
     <div class='title-bar orange'>
       Willman's Friend Space
     </div>
+
+    {{#if model}}
+      {{top-friends model=model}}
+    {{/if}}
   </div>
 </div>
