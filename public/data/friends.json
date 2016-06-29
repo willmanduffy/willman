@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "friends",
+      "attributes": {
+        "image": "http://www.radfaces.com/images/avatars/little-pete-wrigley.jpg",
+        "name": "Tom",
+        "url": "https://www.myspace.com"
+      }
+    },
+
+    {
+      "id": 2,
+      "type": "friends",
+      "attributes": {
+        "image": "http://www.radfaces.com/images/avatars/little-pete-wrigley.jpg",
+        "name": "Tom",
+        "url": "https://www.myspace.com"
+      }
+    }
+  ]
+}
