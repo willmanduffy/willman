@@ -14,7 +14,7 @@ probably won't add you to be honest. Sorry!
 
 ### Add your avatar
 
-Add your image to the `public/images/avatars` folder. I'd prefer it if you stick
+Add your image to the `public/assets/images/avatars` folder. I'd prefer it if you stick
 to png, jpg, or gif to be honest.
 
 ### Add yourself to the data fixture
@@ -28,7 +28,7 @@ the bottom most entry!
   "id": 2,
   "type": "friends",
   "attributes": {
-    "image": "images/avatars/your-name.png",
+    "image": "assets/images/avatars/your-name.png",
     "name": "Your Name",
     "url": "https://www.example.com"
   }
