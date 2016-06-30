@@ -1,0 +1,153 @@
+$timeline-arrow-size: 0.9em
+
+.inverted
+  .timeline-dot
+    background-color: $cherokee
+
+  .timeline-panel
+    float: right
+
+    &:before
+      @extend .timeline-arrow-inverted
+
+    .title-bar
+      @extend .orange
+
+    p
+      border-color: $cherokee
+
+.timeline
+  list-style: none
+  position: relative
+
+  &:before
+    background-color: #DDD
+    bottom: 0
+    content: ""
+    left: 1em
+    position: absolute
+    top: 0
+    width: 0.2em
+
+  > li
+    margin-bottom: 1.25em
+    position: relative
+
+    &:before,
+    &:after
+      content: ""
+      display: table
+
+    &:after
+      clear: both
+
+.timeline-arrow
+  border-bottom: $timeline-arrow-size solid transparent
+  border-left: $timeline-arrow-size solid $danube
+  border-right: 0 solid $danube
+  border-top: $timeline-arrow-size solid transparent
+  content: ""
+  display: inline-block
+  left: auto
+  position: absolute
+  right: -0.8em
+  top: 1.8em
+
+.timeline-arrow-inverted
+  border-left: 0 solid $cherokee
+  border-right: $timeline-arrow-size solid $cherokee
+  left: -0.85em
+  right: auto
+
+.timeline-dot
+  background-color: $danube
+  border-radius: 1em
+  height: 1em
+  left: 0.65em
+  margin-left: 0
+  position: absolute
+  top: 2.1em
+  width: 1em
+  z-index: 100
+
+.timeline-link
+  color: #555
+  display: block
+  transition: transform 500ms
+
+  &:active, &:hover, &:visited
+    color: #333
+
+.timeline-panel
+  float: right
+  position: relative
+  width: calc(100% - 3.625em)
+
+  &:before
+    @extend .timeline-arrow
+    @extend .timeline-arrow-inverted
+    border-left-color: $danube
+    border-right-color: $danube
+
+  p
+    border-color: $danube
+    border-style: solid
+    border-width: 0 2px 2px
+    font-size: 0.9em
+    padding: 1em 0.5em
+
+  span
+    color: #333
+    display: block
+    font-size: 0.8em
+    font-weight: 600
+    margin-bottom: 0.7em
+    padding: 0 0.5em
+
+.timeline-subtitle
+  display: block
+  margin-bottom: 2em
+
+  a
+    color: $danube
+
+
+.timeline-subtitle,
+.timeline-title
+  text-align: center
+
+.timeline-title
+  color: $midnight-blue
+  margin-bottom: 0
+
++breakpoint($breakpoint-medium-up)
+  .timeline:before
+    left: 50%
+
+  .timeline-dot
+    left: 50%
+    margin-left: -0.4em
+    top: 2.2em
+
+  .timeline-link:hover
+    transform: scale(1.05, 1.05)
+
+  .timeline-panel
+    float: left
+    width: 45%
+
+    &:before
+      // This is kinda gross, unfortunately can't extend the timeline-arrow
+      // class inside of the media query
+      border-bottom: $timeline-arrow-size solid transparent
+      border-left: $timeline-arrow-size solid $danube
+      border-right: 0 solid $danube
+      border-top: $timeline-arrow-size solid transparent
+      left: auto
+      position: absolute
+      right: -0.8em
+      top: 1.8em
+
++breakpoint($breakpoint-large-up)
+  .timeline-link:hover
+    transform: scale(1.1, 1.1)

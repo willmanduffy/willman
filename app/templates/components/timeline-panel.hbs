@@ -1,0 +1,16 @@
+<a class='timeline-link' href={{experience.url}} target="_new">
+  <div class='timeline-dot'></div>
+  <div class='timeline-panel'>
+    <span>{{experience.dates}}</span>
+
+    <div class='title-bar blue without-margin'>
+      {{experience.name}}
+
+      {{#if experience.title}}
+        ({{experience.title}})
+      {{/if}}
+    </div>
+
+    <p>{{experience.description}}</p>
+  </div>
+</a>

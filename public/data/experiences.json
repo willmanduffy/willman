@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "experiences",
+      "attributes": {
+        "dates": "January 2015 - Present",
+        "description": "Helping drive forward a small remote team of developers building out tools with Ember.js to assist our support members in ensuring customer success. I regularly assist in a plethora of tasks including: spec'ing out feature requirements and ticket creation, helping architect and then building JSON API endpoints with Ruby on Rails. Acted as a primary designer for the 2.0 re-launch of our Admin Panel.",
+        "inverted": false,
+        "name": "Ride",
+        "title": "Senior Developer",
+        "url": "https://www.ride.com/"
+      }
+    },
+
+    {
+      "id": 2,
+      "type": "experiences",
+      "attributes": {
+        "dates": "December 2014 - Present",
+        "description": "BrooklynJS is one of the most popular monthly programming meetups in the world with 120 tickets selling out every month in less than 5 minutes. As a co-organizer I've coordinated sponsorships, speaker outreach, run larger events in partnership with conferences (like CSSConf!) and helped build out an infrastructure around our Code of Conduct to assist in keeping attendees safe. Doing my best to help foster an inclusive environment!",
+        "inverted": true,
+        "name": "BrooklynJS",
+        "title": "Co-Organizer",
+        "url": "http://www.brooklynjs.com"
+      }
+    },
+
+    {
+      "id": 3,
+      "type": "experiences",
+      "attributes": {
+        "dates": "July 2014 - Present",
+        "description": "Relay FM is an independent podcast network built on top of the Goodstuff.fm CMS, but the app was tweaked to be much more resistant to higher traffic numbers (an estimated 1.6 million downloads in June 2016). On launch day the application received a peak of 1,000 requests per minute and maintained an average response time of 50ms during those peaks. Many of these changes were then backported to the original parent application.",
+        "inverted": false,
+        "name": "Relay FM",
+        "title": "Freelance Consultant",
+        "url": "https://www.relay.fm"
+      }
+    },
+
+    {
+      "id": 4,
+      "type": "experiences",
+      "attributes": {
+        "dates": "January 2014 - February 2015",
+        "description": "Acted as the sole backend developer on a Podcast CMS. Created a fully functional application complete with S3 storage integration for mp3s and images, a protected management area, RSS feed generation, automatic posting to Twitter for new episodes and a complete test suite that runs in less than ten seconds. Generated an iTunes compatible podcast RSS feed for each unique podcast.",
+        "inverted": true,
+        "name": "Goodstuff FM",
+        "title": "Freelance Consultant",
+        "url": "http://www.goodstuff.fm"
+      }
+    },
+
+    {
+      "id": 5,
+      "type": "experiences",
+      "attributes": {
+        "dates": "September 2011 - January 2015",
+        "description": "Responsible for developing and helping architect a leading edge corporate sustainability and engagement platform with Ruby on Rails. Developed and architected hundreds of features while utilizing test driven development in an agile environment. Became known as the maintainer of the MiniTest test suite through my eternal battle to keep the test suite run time under 3 minutes. Also championed the use of a CI server and SimpleCov to track test coverage. Acted primarily as a backend developer but spent a large portion of my time filling in as a front end developer as needed. Created the front-end style guide as it exists today. Converted the entire application from a separate mobile web app to a responsive app in 2 weeks.",
+        "inverted": false,
+        "name": "WeSpire",
+        "title": "Full Stack Developer",
+        "url": "https://www.wespire.com/"
+      }
+    },
+
+    {
+      "id": 6,
+      "type": "experiences",
+      "attributes": {
+        "dates": "August 2011 - May 2012",
+        "description": "Worked with multiple clients on Ruby on Rails projects with features that were de- signed with test-driven development. Created web-based HTML5 mobile applications with a backbone.js front-end and Ruby on Rails. Worked both remotely and in-house at startups and kept track of all work done with GitHub issues and Pivotal Tracker.",
+        "inverted": true,
+        "name": "Terrible Labs",
+        "title": "Junior Developer",
+        "url": "http://www.terriblelabs.com/"
+      }
+    },
+
+    {
+      "id": 7,
+      "type": "experiences",
+      "attributes": {
+        "dates": "January 2011 - May 2011",
+        "description": "Developed and distributed unique images for specialty machines in the Harvard College Libraries. Fulfilled all client requests and managed them through DK Help Desk. Diagnosed and remedied issues with LANDesk Remote Agent system. Helped facilitate the upgrade of over one hundred staff machines.",
+        "inverted": false,
+        "name": "Harvard University",
+        "title": "IT Intern",
+        "url": "https://www.harvard.edu"
+      }
+    }
+  ]
+}

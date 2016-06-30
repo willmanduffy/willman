@@ -1,0 +1,18 @@
+<div class='row resume'>
+  <div class='small-12 columns'>
+    <h2 class='timeline-title'>Willman Duffy</h2>
+    <span class='timeline-subtitle'><a href='mailto:willmanduffy@gmail.com'>willmanduffy@gmail.com</a></span>
+
+    <ul class='timeline'>
+      {{#each model as |experience|}}
+        <li>
+          {{
+            timeline-panel
+            experience=experience
+            inverted=experience.inverted
+          }}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

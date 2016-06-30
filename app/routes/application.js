@@ -9,5 +9,9 @@ export default Ember.Route.extend({
     Ember.$.getJSON('data/friends.json').then((friends) => {
       this.store.pushPayload(friends);
     });
+
+    Ember.$.getJSON('data/experiences.json').then((experiences) => {
+      this.store.pushPayload(experiences);
+    });
   }
 });
