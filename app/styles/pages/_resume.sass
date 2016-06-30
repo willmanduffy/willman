@@ -16,6 +16,14 @@ $timeline-arrow-size: 0.9em
     p
       border-color: $cherokee
 
+.resume-image
+  border: 3px solid #DDD
+  border-radius: 10em
+  display: block
+  height: 10em
+  margin: 1em auto
+  width: 10em
+
 .timeline
   list-style: none
   position: relative
@@ -111,7 +119,6 @@ $timeline-arrow-size: 0.9em
   a
     color: $danube
 
-
 .timeline-subtitle,
 .timeline-title
   text-align: center
@@ -121,6 +128,12 @@ $timeline-arrow-size: 0.9em
   margin-bottom: 0
 
 +breakpoint($breakpoint-medium-up)
+  .resume-header
+    margin-left: 1.8em
+
+  .resume-image
+    margin-bottom: 0
+
   .timeline:before
     left: 50%
 
@@ -134,7 +147,7 @@ $timeline-arrow-size: 0.9em
 
   .timeline-panel
     float: left
-    width: 45%
+    width: 46%
 
     &:before
       // This is kinda gross, unfortunately can't extend the timeline-arrow
@@ -149,5 +162,11 @@ $timeline-arrow-size: 0.9em
       top: 1.8em
 
 +breakpoint($breakpoint-large-up)
+  .timeline > li:not(:first-child)
+    margin-top: -6.5em
+
   .timeline-link:hover
     transform: scale(1.1, 1.1)
+
+  .timeline-panel img
+    display: block
