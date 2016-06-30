@@ -16,6 +16,9 @@ $timeline-arrow-size: 0.9em
     p
       border-color: $cherokee
 
+.resume-header
+  text-align: center
+
 .resume-image
   border: 3px solid #DDD
   border-radius: 10em
@@ -26,6 +29,8 @@ $timeline-arrow-size: 0.9em
 
 .timeline
   list-style: none
+  margin-bottom: 0
+  padding-bottom: 0.3em
   position: relative
 
   &:before
@@ -48,6 +53,13 @@ $timeline-arrow-size: 0.9em
 
     &:after
       clear: both
+
+  &.header-timeline
+    padding-top: 2em
+
+    .inverted
+      // Fun hack to get the inverted panel to attach to the top
+      margin-top: -100em
 
 .timeline-arrow
   border-bottom: $timeline-arrow-size solid transparent
@@ -97,6 +109,19 @@ $timeline-arrow-size: 0.9em
     border-left-color: $danube
     border-right-color: $danube
 
+  &.without-arrow:before
+    content: none
+
+  .skill-header
+    margin: 0
+    padding: 0
+
+    &:not(:first-child)
+      margin-top: 0.8em
+
+  .skills
+    font-size: 0.8em
+
   p
     border-color: $danube
     border-style: solid
@@ -118,10 +143,6 @@ $timeline-arrow-size: 0.9em
 
   a
     color: $danube
-
-.timeline-subtitle,
-.timeline-title
-  text-align: center
 
 .timeline-title
   color: $midnight-blue
