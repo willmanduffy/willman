@@ -27,6 +27,13 @@ $timeline-arrow-size: 0.9em
   margin: 1em auto
   width: 10em
 
+.summary
+  .timeline-panel
+    margin-bottom: 2em
+
+    p
+      border-color: $danube
+
 .timeline
   list-style: none
   margin-bottom: 0
@@ -94,6 +101,7 @@ $timeline-arrow-size: 0.9em
   color: #555
   display: block
   transition: transform 500ms
+  height: 100%
 
   &:active, &:hover, &:visited
     color: #333
@@ -109,6 +117,12 @@ $timeline-arrow-size: 0.9em
     border-left-color: $danube
     border-right-color: $danube
 
+  &.full-width
+    width: calc(100% - 3.625em)
+
+    +breakpoint($breakpoint-medium-up)
+      width: 100%
+
   &.without-arrow:before
     content: none
 
@@ -120,13 +134,19 @@ $timeline-arrow-size: 0.9em
       margin-top: 0.8em
 
   .skills
-    font-size: 0.8em
+    font-size: 0.9em
+
+  .timeline-dates
+    padding: 0 0.5em
+
+  li
+    font-size: 0.9em
 
   p
+    background: $white
     border-color: $danube
     border-style: solid
     border-width: 0 2px 2px
-    font-size: 0.9em
     padding: 1em 0.5em
 
   span
@@ -135,7 +155,6 @@ $timeline-arrow-size: 0.9em
     font-size: 0.8em
     font-weight: 600
     margin-bottom: 0.7em
-    padding: 0 0.5em
 
 .timeline-subtitle
   display: block
@@ -147,6 +166,9 @@ $timeline-arrow-size: 0.9em
 .timeline-title
   color: $midnight-blue
   margin-bottom: 0
+
+.timeline-url
+  padding: 0 0 0 1.6em
 
 +breakpoint($breakpoint-medium-up)
   .resume-header
