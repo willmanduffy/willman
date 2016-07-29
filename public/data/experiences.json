@@ -4,14 +4,31 @@
       "id": 1,
       "type": "experiences",
       "attributes": {
+        "dates": "July 2015 - Present",
+        "description": [
+          "Created a search engine and organizer for Slack emoji reactions as a side project with Ember.js and Ruby on Rails.",
+          "Built a drag and drop batch uploader that resizes, matches and de-duplicates, and detects naming for emoji images.",
+          "Currently in a closed beta with hundreds of registrations."
+        ],
+        "inverted": false,
+        "name": "Mojician",
+        "title": "Creator",
+        "url": "https://www.mojician.com"
+      }
+    },
+
+    {
+      "id": 2,
+      "type": "experiences",
+      "attributes": {
         "dates": "January 2015 - Present",
         "description": [
-          "Lead a small remote team of developers constructing a set of dashboards with Ember.js that streamlined common support tasks, allowing our support team to ensure customer success without engineering resources.",
+          "Led a small remote team of developers constructing a set of dashboards with Ember.js that streamlined common support tasks, allowing our support team to ensure customer success without engineering resources.",
           "Architected and built private, internal JSON API endpoints on the Rails central API.",
           "Handled all aspects of dashboard development from design to ticket creation to test-driven development.",
           "Built internal custom monitoring tools to alert on abnormalities in the Heroku configuration of our applications"
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "Ride",
         "title": "Admin Tools Team Lead",
         "url": "https://www.ride.com/"
@@ -19,7 +36,7 @@
     },
 
     {
-      "id": 2,
+      "id": 3,
       "type": "experiences",
       "attributes": {
         "dates": "December 2014 - Present",
@@ -28,7 +45,7 @@
           "I coordinate sponsorships, speaker outreach, run larger events in partnership with conferences (like CSSConf!)",
           "Helped build out an infrastructure around our Code of Conduct to assist in keeping attendees safe. Doing my best to help foster an inclusive environment!"
         ],
-        "inverted": true,
+        "inverted": false,
         "name": "BrooklynJS",
         "title": "Co-Organizer",
         "url": "http://www.brooklynjs.com"
@@ -36,7 +53,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "type": "experiences",
       "attributes": {
         "dates": "July 2014 - Present",
@@ -45,7 +62,7 @@
           "On launch day the application received a peak of 1,000 requests per minute and maintained an average response time of 50ms during those peaks.",
           "As the development team grew I acted as lead developer to maintain the architecture of the codebase."
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "Relay FM",
         "title": "Freelance Consultant",
         "url": "https://www.relay.fm"
@@ -53,7 +70,7 @@
     },
 
     {
-      "id": 4,
+      "id": 5,
       "type": "experiences",
       "attributes": {
         "dates": "January 2014 - February 2015",
@@ -61,7 +78,7 @@
           "Created a fully functional application complete with S3 storage integration for mp3s and images, a protected management area, RSS feed generation, automatic posting to Twitter for new episodes and a complete test suite that runs in less than ten seconds.",
           "Generated an iTunes compatible podcast RSS feed for each unique podcast."
         ],
-        "inverted": true,
+        "inverted": false,
         "name": "Goodstuff FM",
         "title": "Freelance Consultant",
         "url": "http://www.goodstuff.fm"
@@ -69,18 +86,18 @@
     },
 
     {
-      "id": 5,
+      "id": 6,
       "type": "experiences",
       "attributes": {
         "dates": "September 2011 - January 2015",
         "description": [
-          "Responsible for developing and helping architect a leading edge corporate sustainability and engagement platform with Ruby on Rails.",
+          "Was responsible for developing and helping architect a leading edge corporate sustainability and engagement platform with Ruby on Rails.",
           "Developed and architected hundreds of features while utilizing test driven development in an agile environment.",
           "Became known as the maintainer of the MiniTest test suite through my eternal battle to keep the test suite run time under 3 minutes.",
-          "As a side project, I designed and built a new referal feature that raised our monthly referals by over 1000%.",
+          "As a side project, I designed and built a new referral feature that raised our monthly referrals by over 1000%.",
           "Converted the entire application from a separate mobile web app to a responsive app in 2 weeks."
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "WeSpire",
         "title": "Full Stack Developer",
         "url": "https://www.wespire.com/"
@@ -88,7 +105,7 @@
     },
 
     {
-      "id": 6,
+      "id": 7,
       "type": "experiences",
       "attributes": {
         "dates": "August 2011 - May 2012",
@@ -97,7 +114,7 @@
           "Created web-based HTML5 mobile applications with a backbone.js front-end and Ruby on Rails.",
           "Worked both remotely and in-house at startups and kept track of all work done with GitHub issues and Pivotal Tracker."
         ],
-        "inverted": true,
+        "inverted": false,
         "name": "Terrible Labs",
         "title": "Junior Developer",
         "url": "http://www.terriblelabs.com/"
@@ -105,7 +122,7 @@
     },
 
     {
-      "id": 7,
+      "id": 8,
       "type": "experiences",
       "attributes": {
         "dates": "January 2011 - May 2011",
@@ -114,7 +131,7 @@
           "Fulfilled all client requests and managed them through DK Help Desk.",
           "Diagnosed and remedied issues with LANDesk Remote Agent system and helped facilitate the upgrade of over one hundred staff machines."
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "Harvard University",
         "title": "IT Intern",
         "url": "https://www.harvard.edu"
