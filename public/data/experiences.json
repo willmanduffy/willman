@@ -4,13 +4,25 @@
       "id": 1,
       "type": "experiences",
       "attributes": {
+        "dates": "September 2016 - Present",
+        "description": [],
+        "inverted": false,
+        "name": "Kickstarter",
+        "title": "Software Engineer",
+        "url": "https://www.kickstarter.com"
+      }
+    },
+    {
+      "id": 2,
+      "type": "experiences",
+      "attributes": {
         "dates": "July 2015 - Present",
         "description": [
           "Created a search engine and organizer for Slack emoji reactions as a side project with Ember.js and Ruby on Rails.",
           "Built a drag and drop batch uploader that resizes, matches and de-duplicates, and detects naming for emoji images.",
           "Currently in a closed beta with hundreds of registrations."
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "Mojician",
         "title": "Creator",
         "url": "https://www.mojician.com"
@@ -18,17 +30,17 @@
     },
 
     {
-      "id": 2,
+      "id": 3,
       "type": "experiences",
       "attributes": {
-        "dates": "January 2015 - Present",
+        "dates": "January 2015 - August 2016",
         "description": [
           "Led a small remote team of developers constructing a set of dashboards with Ember.js that streamlined common support tasks, allowing our support team to ensure customer success without engineering resources.",
           "Architected and built private, internal JSON API endpoints on the Rails central API.",
           "Handled all aspects of dashboard development from design to ticket creation to test-driven development.",
           "Built internal custom monitoring tools to alert on abnormalities in the Heroku configuration of our applications"
         ],
-        "inverted": true,
+        "inverted": false,
         "name": "Ride",
         "title": "Admin Tools Team Lead",
         "url": "https://www.ride.com/"
@@ -36,7 +48,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "type": "experiences",
       "attributes": {
         "dates": "December 2014 - Present",
@@ -45,7 +57,7 @@
           "I coordinate sponsorships, speaker outreach, run larger events in partnership with conferences (like CSSConf!)",
           "Helped build out an infrastructure around our Code of Conduct to assist in keeping attendees safe. Doing my best to help foster an inclusive environment!"
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "BrooklynJS",
         "title": "Co-Organizer",
         "url": "http://www.brooklynjs.com"
@@ -53,7 +65,7 @@
     },
 
     {
-      "id": 4,
+      "id": 5,
       "type": "experiences",
       "attributes": {
         "dates": "July 2014 - Present",
@@ -62,7 +74,7 @@
           "On launch day the application received a peak of 1,000 requests per minute and maintained an average response time of 50ms during those peaks.",
           "As the development team grew I acted as lead developer to maintain the architecture of the codebase."
         ],
-        "inverted": true,
+        "inverted": false,
         "name": "Relay FM",
         "title": "Freelance Consultant",
         "url": "https://www.relay.fm"
@@ -70,7 +82,7 @@
     },
 
     {
-      "id": 5,
+      "id": 6,
       "type": "experiences",
       "attributes": {
         "dates": "January 2014 - February 2015",
@@ -78,7 +90,7 @@
           "Created a fully functional application complete with S3 storage integration for mp3s and images, a protected management area, RSS feed generation, automatic posting to Twitter for new episodes and a complete test suite that runs in less than ten seconds.",
           "Generated an iTunes compatible podcast RSS feed for each unique podcast."
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "Goodstuff FM",
         "title": "Freelance Consultant",
         "url": "http://www.goodstuff.fm"
@@ -86,7 +98,7 @@
     },
 
     {
-      "id": 6,
+      "id": 7,
       "type": "experiences",
       "attributes": {
         "dates": "September 2011 - January 2015",
@@ -97,7 +109,7 @@
           "As a side project, I designed and built a new referral feature that raised our monthly referrals by over 1000%.",
           "Converted the entire application from a separate mobile web app to a responsive app in 2 weeks."
         ],
-        "inverted": true,
+        "inverted": false,
         "name": "WeSpire",
         "title": "Full Stack Developer",
         "url": "https://www.wespire.com/"
@@ -105,7 +117,7 @@
     },
 
     {
-      "id": 7,
+      "id": 8,
       "type": "experiences",
       "attributes": {
         "dates": "August 2011 - May 2012",
@@ -114,7 +126,7 @@
           "Created web-based HTML5 mobile applications with a backbone.js front-end and Ruby on Rails.",
           "Worked both remotely and in-house at startups and kept track of all work done with GitHub issues and Pivotal Tracker."
         ],
-        "inverted": false,
+        "inverted": true,
         "name": "Terrible Labs",
         "title": "Junior Developer",
         "url": "http://www.terriblelabs.com/"
@@ -122,7 +134,7 @@
     },
 
     {
-      "id": 8,
+      "id": 9,
       "type": "experiences",
       "attributes": {
         "dates": "January 2011 - May 2011",
@@ -131,7 +143,7 @@
           "Fulfilled all client requests and managed them through DK Help Desk.",
           "Diagnosed and remedied issues with LANDesk Remote Agent system and helped facilitate the upgrade of over one hundred staff machines."
         ],
-        "inverted": true,
+        "inverted": false,
         "name": "Harvard University",
         "title": "IT Intern",
         "url": "https://www.harvard.edu"
