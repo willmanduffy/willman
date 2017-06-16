@@ -28,6 +28,16 @@
         "name": "Chris Bannon",
         "url": "http://banzor.us/"
       }
+    },
+
+    {
+      "id": 4,
+      "type": "friends",
+      "attributes": {
+        "image": "assets/images/avatars/steve-klabnik.jpg",
+        "name": "Steve Klabnik",
+        "url": "http://steveklabnik.com"
+      }
     }
   ]
 }
